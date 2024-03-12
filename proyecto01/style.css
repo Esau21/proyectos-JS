@@ -18,7 +18,7 @@
 .btn {
     background-color: #ECECEC;
     color: #FFC300;
-    border-radius: 50px 50px 0px 50px;
+    border-radius: 50px 50px 50px 50px;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -30,3 +30,50 @@
     background-color: #FF1818;
     color: #ffffff;
 }
+
+.nav {
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    text-align: center; /* Centra los elementos de la lista horizontalmente */
+  }
+  
+  .nav-items {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-items li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Añade espacio horizontal entre los elementos de la lista */
+    text-decoration: none;
+  }
+
+  .text-1 {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #5F5D9C;
+  }
+  
+
+  .nav-a {
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #5F5D9C;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  /* Otros estilos se pueden mantener igual o ajustar según sea necesario */
+  
