@@ -1,34 +1,5 @@
-.container {
-    display: grid;
-    place-items: center;
-}
-
-.sub-container {
-    margin: 0 auto;
-}
-
-.texto {
-   background-color: #000000;
-   color: #ffffff;
-   padding: 10px;
-   font-size: 50px;
-   border-radius: 10px 10px 10px 10px;
-}
-
-.btn {
-    background-color: #ECECEC;
-    color: #FFC300;
-    border-radius: 50px 50px 50px 50px;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: -123px;
-}
-
-.btn:hover {
-    background-color: #FF1818;
-    color: #ffffff;
+body{
+    background: #ffffff;
 }
 
 .nav {
@@ -58,22 +29,56 @@
     text-decoration: none;
   }
 
-  .text-1 {
-    display: flex;
-    align-items: flex-end;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: #5F5D9C;
-  }
-  
-
-  .nav-a {
-    display: block;
-    justify-content: flex-start;
+  .link {
     text-decoration: none;
-    color: #5F5D9C;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    color: skyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
   }
-  /* Otros estilos se pueden mantener igual o ajustar según sea necesario */
-  
+
+  .link1 {
+    text-decoration: none;
+    font-family: monospace;
+    color: #000000;
+  }
+
+  .link1:hover {
+    text-decoration: none;
+    font-family: monospace;
+    color: #FF6D60;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Aplicamos verticalmente la linea */
+    padding: 200px;
+}
+
+.texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-top: auto; /* Centramos verticalmente el boton */
+    border-radius: 40px 40px 40px 40px;
+    background-color: #6DA9E4;
+    color: #ffffff;
+}
