@@ -20,7 +20,7 @@ buttomDecrease.addEventListener("click", function() {
 
 buttomReset.addEventListener("click", function(){
     counter = 0;
-    value.style.color = '#3b3f5c'
+    value.style.color = '#000000'
     value.innerHTML = counter;
 });
 
