@@ -1,5 +1,5 @@
 const btnCounterIncrease = document.getElementById("Increase");
-const buttomDecrease = document.getElementById("Decrease");
+const btnCounterDecrease  = document.getElementById("Decrease");
 const buttomReset = document.getElementById("Reset");
 const value = document.querySelector("#value");
 
@@ -12,7 +12,7 @@ btnCounterIncrease.addEventListener("click", function() {
     value.innerHTML = counter;
 });
 
-buttomDecrease.addEventListener("click", function() {
+btnCounterDecrease.addEventListener("click", function() {
     counter--
     value.style.color = '#F45050';
     value.innerHTML = counter;
